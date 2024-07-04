@@ -18,3 +18,10 @@ This project calculates the number of hours left until the end of the week from 
 
 ## Contributions
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
+
+## TODO
+Add a navbar at the top for
+   Calendar
+      A system to add events to the calendar
+   Gym Journal
+   Pie chart
