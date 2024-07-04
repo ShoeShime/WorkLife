@@ -1,5 +1,4 @@
 # How Many Hours Are Left In The Week
-
 This project calculates the number of hours left until the end of the week from the current time.
 
 ## Features
@@ -13,6 +12,7 @@ This project calculates the number of hours left until the end of the week from 
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/HowManyHoursAreLeftInTheWeek.git
+
 
 
 
