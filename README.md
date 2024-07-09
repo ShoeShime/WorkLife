@@ -19,6 +19,9 @@ This project calculates the number of hours left until the end of the week from 
 ## Contributions
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
 
+## FIXME
+Make the application updates the amount of hours left overtime
+
 ## TODO
 Add a navbar at the top for
    Calendar
