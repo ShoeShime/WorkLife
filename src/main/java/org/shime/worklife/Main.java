@@ -1,3 +1,5 @@
+package org.shime.worklife;
+
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.application.Application;

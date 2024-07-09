@@ -1,2 +1,5 @@
-.vscode/
+# Build directories
 target/
+
+# Editor directories and files
+.vscode/
