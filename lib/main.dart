@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 //import 'package:intl/intl.dart';
 
 void main() {
-  runApp(WorkLifeApp());
+  runApp(const WorkLifeApp());
 }
 
 class WorkLifeApp extends StatelessWidget {
+  const WorkLifeApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,12 +15,14 @@ class WorkLifeApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
@@ -35,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _startTimer() {
     // Update every hour
-    Future.delayed(Duration(hours: 1), () {
+    Future.delayed(const Duration(hours: 1), () {
       _calculateHoursLeft();
       _startTimer();  // restart the timer
     });
@@ -56,23 +60,23 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hours Left in the Week'),
+        title: const Text('Hours Left in the Week'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
+            const Text(
               'Hours left in the week:',
               style: TextStyle(fontSize: 24),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             CircleAvatar(
               radius: 150,
               backgroundColor: Colors.blue.withOpacity(0.7),
               child: Text(
                 _hoursLeft,
-                style: TextStyle(fontSize: 48, color: Colors.white),
+                style: const TextStyle(fontSize: 48, color: Colors.white),
               ),
             ),
           ],
