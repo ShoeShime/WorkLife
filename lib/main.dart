@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import "features/TimeRemaining/TimeRemaining.dart";
+import "features/TimeRemaining/time_remaining.dart";
 
 void main() {
   runApp(const WorkLifeApp());
